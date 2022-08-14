@@ -1,0 +1,261 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier;
+    font-size: 16px;
+}
+body{
+    
+   background: rgb(36, 28, 28);
+}
+
+header, #Main_tilte h2{
+    text-align: center;
+    color: rgb(65, 65, 180);
+    font-size: 5em;
+    text-transform: uppercase;
+
+}
+
+header, #Main_tilte h2 span{
+    text-align: center;
+    color: rgb(236, 4, 4);
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+
+.Left_Col, .Right_Col{
+    background-color: #ffffff;
+    width: 40%; 
+    height:80vh ;
+    box-shadow: #ffffff 3px 3px 3px 3px;
+    border-radius: 2px;
+
+}
+
+#Main_section{
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100Vh;
+}
+
+#header{
+    border-bottom: 2px grey solid ;
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo h2 , #logo2 h2{
+
+    color: rgb(65, 65, 180);
+    text-transform: uppercase;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: 1000;
+}
+#logo h2 span{
+    color: rgb(236, 4, 4);
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+#logo2 h2 span{
+    color: rgb(236, 4, 4);
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+
+
+}
+
+#title h2{
+
+    color:rgb(65, 65, 180);
+    font-size: 30px;
+}
+
+#title2 h2{
+    color:rgb(236, 4, 4);
+    font-size: 30px;
+}
+
+#Rad_status, #Rad2_status{
+    height:20px ;
+    width: 20px;
+    color:green;
+    cursor: pointer;
+}
+
+#Radio_button{
+
+    padding: 6px;
+}
+
+#Main_container, #Main_container2{
+    width: 100%;
+    background-color: #ddd;
+    height: 75vh;
+    scroll-behavior: initial;
+    scroll-behavior: smooth;
+}
+
+#txt_textbox, #txt2_textbox {
+
+    padding: 0.75rem;
+    height: 3rem;
+    width: 80%;
+}
+
+#Btn_send, #Btn_send2{
+
+width:6rem;
+height: 3rem;
+cursor: pointer;
+background-color: rgb(65, 65, 180);
+border-radius: 6px;
+color: #ffffff;
+}
+
+#Btn_send:hover{
+
+    background-color: rgb(9, 9, 250);
+
+}
+/*======================This dd is for the txt that appears in Bot one=========================*/ 
+li{
+    
+    height: auto;
+    background-color: rgb(223, 37, 37) ;
+    border-radius: 6px ;
+    margin: 10px 5px;
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+b{
+
+    
+    display: inherit;
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+    margin: 10px;
+    padding:10px;
+    font-weight: 550;
+    
+}
+
+/*======================This dd is for the txt that appears in Bot two=========================*/ 
+dd{
+    display: inherit;
+    height: auto;
+    background-color: rgb(65, 65, 180) ;
+    border-radius: 6px;
+    margin: 10px;
+    padding:10px;
+   
+     
+}
+
+u{  
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+@media(max-width: 1320px) {
+    
+    #Btn_send, #Btn_send2{
+
+        width:5rem;
+        
+    }
+
+}
+
+
+@media(max-width: 1128px) {
+    
+    #Btn_send, #Btn_send2{
+
+        width:5rem;
+        
+    }
+    #txt_textbox, #txt2_textbox {
+
+        height: 3rem;
+        width: 70%;
+    }
+
+    #Main_container, #Main_container2{
+        width: 100%;
+        background-color: #ddd;
+        height: 77vh;
+    }
+}
+
+@media(max-width: 756px) {
+    
+    #Main_section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 120Vh;
+    }
+    #Btn_send, #Btn_send2{
+
+        width:5rem;
+        
+    }
+    #txt_textbox, #txt2_textbox {
+
+        height: 3rem;
+        width: 70%;
+    }
+
+    .Left_Col, .Right_Col{
+        width: 70%;
+        background-color: #ddd;
+        height: 50vh;
+        
+    }
+    #Main_container, #Main_container2{
+        width: 100%;
+        background-color: #ddd;
+        height: 47vh;
+    }
+    .Right_Col{
+
+        margin-top: 2rem;
+    }
+            
+}
+
+footer{
+    height: 15vh;
+    width: 100%;
+    background-color: #ddd;
+}
+
+
+footer h2{
+    color:black;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+footer h3{
+    color:black;
+    text-align: center;
+    font-size: 20px;
+    
+}
