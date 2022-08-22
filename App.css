@@ -242,7 +242,7 @@ u{
 }
 /* ====================== footer ===============*/
 footer{
-    height: 17vh;
+    height: 20vh;
     width: 100%;
     background-color: #ddd;
 }
@@ -329,7 +329,18 @@ footer h3{
         color:rgb(236, 4, 4);
         font-size: 20px;
     }
+    footer h2{
+        
+        font-size: 20px;
     
+    }
+    
+    footer h3{
+        color:black;
+        text-align: center;
+        font-size: 18px;
+        
+    }    
 }
 
 @media(max-width: 320px){
